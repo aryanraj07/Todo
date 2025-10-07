@@ -34,7 +34,7 @@ const Todo = () => {
   useEffect(() => {
     localStorage.setItem("todos", JSON.stringify(todos));
   }, [todos]);
-  console.log(todos);
+
   return (
     <TodoContextProvider
       value={{ todos, addTodo, deleteTodo, updateTodo, toggleComplete }}

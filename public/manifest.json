@@ -1,0 +1,21 @@
+{
+  "name": "Tickr",
+  "short_name": "Tickr",
+  "description": "Your personal task manager to stay organized and productive.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000",
+  "theme_color": "#172842",
+  "icons": [
+    {
+      "src": "/tickr-192.jpg",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/tickr-512.jpg",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
